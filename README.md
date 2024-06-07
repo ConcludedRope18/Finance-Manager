@@ -17,7 +17,7 @@ The Personal Finance Manager is a command-line application designed to help user
 
 ## Usage Instructions
 ### Menu Options
-1. Add Transaction
+1. **Add Transaction**
 	-Follow the prompts to enter:
 		- Date(DD-MM-YYYY)
 		- Category
@@ -25,23 +25,25 @@ The Personal Finance Manager is a command-line application designed to help user
 		- Type (income/expense)
 		- Description
 	- Example:
-		`Enter date (YYYY-MM-DD): 2024-05-17
-		Enter category: Food
-		Enter amount: 50.0
-		Enter type (income/expense): expense
-		Enter description: Lunch at Cafe
-		Transaction added successfully.`
-2. View Balance
+```
+Enter date (DD-MM-YYYY): 2024-05-17
+Enter category: Food
+Enter amount: 50.0
+Enter type (income/expense): expense
+Enter description: Lunch at Cafe
+Transaction added successfully.
+```
+2. **View Balance**
 	- Displays the current total balance.
-3. Set Saving Goal
+3. **Set Saving Goal**
 	- Enter the desired saving goal amount.
-4. View Saving Goal
+4. **View Saving Goal**
 	- Displays the current saving goal.
-5. List Last 10 Transactions/List All Transactions
+5. **List Last 10 Transactions/List All Transactions**
 	- Displays the last 10 transactions/displays all past transactions on the account.
 
 ### Example Run
-`Enter username: user1
+```Enter username: user1
 Enter password: password123
 1. Add Transaction
 2. View Balance
@@ -56,7 +58,8 @@ Enter amount: 50.0
 Enter type (income/expense): expense
 Enter description: Lunch at Cafe
 Transaction added successfully.
-Press Enter to continue...`
+Press Enter to continue...
+```
 
 ## Project Structure
 * `main.cpp`: Contains the `main` function of the program.
